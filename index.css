@@ -1,0 +1,83 @@
+
+.main-background{
+    background-image: linear-gradient(45deg,#cdd5e0,#5e6e83);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.main-heading{
+    font-size: 43px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color:#0c0c3f;
+    text-align: center;
+}
+button{
+    padding:14px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    border-radius: 25px;
+    background-color: #5e6e83;
+    color: white;
+    margin-left: 30px;
+    border: 0px;
+    font-size: 18px;
+}
+#inputId{
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    width: 50%;
+}
+
+.card-contianer{
+    text-align: center;
+    Width: 40%;
+    background-color: #ffffff;
+    border-radius: 18px;
+    margin: auto;
+}
+.city-name{
+    font-size: 32px;
+}
+.size{
+    width: 100px;
+    height: 100px;
+}
+.values{
+    font-size: 23px;
+    /* font-weight: bold; */
+    font-family: 'Roboto';
+    
+}
+.option-container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+    margin-left: 20%;
+}
+.option-main-contianer{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.image-styling{
+    height: 80px;
+    width: 80px;
+}
+/* For Mobile Portrait View */
+@media (max-device-width: 480px) {
+    .card-container {
+        text-align: center;
+        Width: 90%;
+        background-color: #ffffff;
+        border-radius: 18px;
+        margin: auto;
+    }
+}
